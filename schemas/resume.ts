@@ -16,6 +16,12 @@ export default {
             title: 'Username',
         },
         {
+            type: 'image',
+            name: 'image',
+            title: 'Image',
+            description: 'Avatar Image for Portfolio',
+        },
+        {
             type: 'string',
             name: 'description',
             title: 'A short description',
