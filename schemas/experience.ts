@@ -11,6 +11,15 @@ export default defineType({
             validation: (Rule: Rule) => Rule.required().warning('In which company/organization ?'),
         },
         {
+            name: 'image',
+            type: 'image',
+            title: 'Image',
+            description: 'Logo or Insignia if the Company/Organization',
+            options: {
+                hotspot: true,
+            }
+        },
+        {
             type: 'string',
             name: 'link',
             title: 'Link',

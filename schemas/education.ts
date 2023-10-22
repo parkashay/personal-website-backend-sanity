@@ -10,6 +10,13 @@ export default defineType({
             title: 'College/School',
         },
         {
+            type: 'image',
+            name: 'image',
+            title: 'Logo/Image',
+            description: 'Logo or insignia of the College/School',
+            options: {hotspot: true},
+        },
+        {
             type: 'string',
             name: 'from',
             title: 'From',
