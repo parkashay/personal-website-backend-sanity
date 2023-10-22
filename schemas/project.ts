@@ -12,13 +12,10 @@ export default{
             validation: (Rule: Rule) => Rule.required().warning('Title is required'),
         },
         {
-            name: 'slug',
-            title: 'Slug',
-            type: 'slug',
-            options: {
-                source: 'title'
-            },
-            validation: (Rule: Rule) => Rule.required().warning('slug is required'),
+            name: 'priority',
+            type: 'string',
+            title: 'Priority',
+            description: 'Provide a priority, Lower the number, higher the priority.'
         },
         {
             name: 'description',
